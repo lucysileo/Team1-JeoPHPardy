@@ -5,15 +5,19 @@ session_start();
 $questionsCol1 = array("The tag used to declare an obect in JavaScript", "The keyword used to declare a method", "An operator that test for both the type and the value", "Represents a value that is “not a number”", "An inner function that has access to the variables in the outer (enclosing) function’s scope chain");
 $answersCol1 = array("What is Var", "What is Function", "What is ===", "What is typeof NaN", "What is a closure");
 
+// edit questions
 $questionsCol2 = array("The tag used to declare an obect in JavaScript", "The keyword used to declare a method");
 $answersCol2 = array("What is Var", "What is Function");
 
+// edit questions
 $questionsCol3 = array("The tag used to declare an obect in JavaScript", "The keyword used to declare a method");
 $answersCol3 = array("What is Var", "What is Function");
 
+// edit questions
 $questionsCol4 = array("The tag used to declare an obect in JavaScript", "The keyword used to declare a method");
 $answersCol4 = array("What is Var", "What is Function");
 
+// edit questions
 $questionsCol5 = array("The tag used to declare an obect in JavaScript", "The keyword used to declare a method");
 $answersCol5 = array("What is Var", "What is Function");
 
