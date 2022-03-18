@@ -2,24 +2,24 @@
 session_start();
 
 
-$questionsCol1 = array("The tag used to declare an obect in JavaScript", "The keyword used to declare a method", "An operator that test for both the type and the value", "Represents a value that is “not a number”", "An inner function that has access to the variables in the outer (enclosing) function’s scope chain");
-$answersCol1 = array("What is Var", "What is Function", "What is ===", "What is typeof NaN", "What is a closure");
+$questionsCol1 = array("The tag used to declare an obect in JavaScript?", "What built in method add one or more elements in an array?", "What variable is visible everywhere in your JS code?");
+$answersCol1 = array("Var", "push()", "toUpperCase()", "sort()", "Global Variable");
 
 // edit questions
-$questionsCol2 = array("The tag used to declare an obect in JavaScript", "The keyword used to declare a method");
-$answersCol2 = array("What is Var", "What is Function");
+$questionsCol2 = array("How do we print out in java?", "What is the concept that you can access objects of different types through the same interface?", "What is the idea of bundling data and method that works as one unit?", "Name one type of inheritance in java?", "What is a short block of code which takes in parameters and returns a value?");
+$answersCol2 = array("Using system.out.print()", "Polymorphism", "Encapsulation", "Inheritance", "Lamda", "Expression");
 
 // edit questions
-$questionsCol3 = array("The tag used to declare an obect in JavaScript", "The keyword used to declare a method");
-$answersCol3 = array("What is Var", "What is Function");
+$questionsCol3 = array("What does php stand for?", "How do you print out a statement in php?", "What statement starts a php script?", "What function reverse sorts and array in php?", "What contains information such as headers, paths, and script locations?");
+$answersCol3 = array("hypertext processor", "echo", "<?php>", "Rsort()", "$/_server");
 
 // edit questions
-$questionsCol4 = array("The tag used to declare an obect in JavaScript", "The keyword used to declare a method");
-$answersCol4 = array("What is Var", "What is Function");
+$questionsCol4 = array("What does SQL stand for?", "What character allows you to select all in SQL?", "What command erases an index?", "What database management uses relational database?", "What type of database stores and provides access points to data points that are related to one another?");
+$answersCol4 = array("Structure Query Language", "*", "DELETE", "MySQL", "Relational Database");
 
 // edit questions
-$questionsCol5 = array("The tag used to declare an obect in JavaScript", "The keyword used to declare a method");
-$answersCol5 = array("What is Var", "What is Function");
+$questionsCol5 = array("What algorithm has the best sorting time complexity?", "An array is what kind of data structure?", "Quick sort running time depends on?", "How does a queue work?", "In order traversal of BST will show?");
+$answersCol5 = array("Merge sort", "Linear", "Pivot", "FIFO - First In First Out", "Sorted list");
 
 $_SESSION["Score"];
 
