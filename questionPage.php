@@ -31,11 +31,11 @@ session_start();
         <h2>Click for answer >> <button class="answer"><?php echo $_SESSION["Answer"] . "<br>" ?></button>
             << Click for answer</h2>
                 <form method="post">
-                    <button class="btn" name="wrong">Incorrect</button>
-                    <?php echo "-    Current Score: " . $_SESSION["Score"] . "    -"; ?>
-                    <button class="btn" name="correct">Correct</button>
+                   <button class="btn" id = "wrong" name="wrong">Incorrect</button>
+                   <?php echo "-    Current Score: " . $_SESSION["Score"] . "    -"; ?>
+                    <button class="btn" id = "correct" name="correct">Correct</button>
                 </form><br><br><br>
-                <a href="index.php"><button class="btn" name="home">Home Page</button></a>
+                <a href="index.php"><button class="btn" id = "home" name="home">Home Page</button></a>
     </div>
 </body>
 
