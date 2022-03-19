@@ -2,7 +2,7 @@
 session_start();
 
 
-$questionsCol1 = array("The tag used to declare an obect in JavaScript?", "What built in method add one or more elements in an array?", "What variable is visible everywhere in your JS code?");
+$questionsCol1 = array("The tag used to declare an obect in JavaScript?", "What built in method add one or more elements in an array?", "What built-in method convert all letters in a string to upper case?", "What built in method sorts out in JS?", "What variable is visible everywhere in your JS code?");
 $answersCol1 = array("Var", "push()", "toUpperCase()", "sort()", "Global Variable");
 
 // edit questions
@@ -11,11 +11,11 @@ $answersCol2 = array("Using system.out.print()", "Polymorphism", "Encapsulation"
 
 // edit questions
 $questionsCol3 = array("What does php stand for?", "How do you print out a statement in php?", "What statement starts a php script?", "What function reverse sorts and array in php?", "What contains information such as headers, paths, and script locations?");
-$answersCol3 = array("hypertext processor", "echo", "<?php>", "Rsort()", "$/_server");
+$answersCol3 = array("hypertext processor", "echo", "The ?php tag", "Rsort()", "server");
 
 // edit questions
 $questionsCol4 = array("What does SQL stand for?", "What character allows you to select all in SQL?", "What command erases an index?", "What database management uses relational database?", "What type of database stores and provides access points to data points that are related to one another?");
-$answersCol4 = array("Structure Query Language", "*", "DELETE", "MySQL", "Relational Database");
+$answersCol4 = array("Structure Query Language", "*", "delete", "MySQL", "Relational Database");
 
 // edit questions
 $questionsCol5 = array("What algorithm has the best sorting time complexity?", "An array is what kind of data structure?", "Quick sort running time depends on?", "How does a queue work?", "In order traversal of BST will show?");
