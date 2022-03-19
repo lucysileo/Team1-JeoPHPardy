@@ -1,5 +1,5 @@
 body {
-  background-color: blue;
+  background-color: #264eff;
 }
 
 body,
@@ -12,7 +12,7 @@ table td {
 }
 
 a {
-  color: #ffff00;
+  color: blue;
 }
 
 button {
@@ -20,14 +20,15 @@ button {
   background: none;
   font-size: 24px;
   font-weight: bold;
-  color: yellow;
+  color: #d9bc00;
   width: 100%;
   height: 100%;
 }
 
 button:hover,
 button:focus {
-  background: #0053ba;
+  background: #3b9dff;
+  
 }
 
 #board {
@@ -38,7 +39,8 @@ button:focus {
 #board #categories td {
   background-color: darkblue;
   background-image: none;
-  border: #ffffff solid 3px;
+  border: #a6d2ff solid 3px;
+  color: white;
 }
 
 #board tr td {
@@ -71,6 +73,7 @@ button:focus {
   width: 180px;
   text-align: center;
   font-size: 24px;
+  color: white;
 }
 
 #answered {

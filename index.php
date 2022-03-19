@@ -66,6 +66,7 @@ if (isset($_POST['point101'])) {
   $_SESSION["Question"] = $questionsCol2[1];
   $_SESSION["Answer"] = $answersCol2[1];
   $_SESSION["Points"] = 200;
+  header("Location: questionPage.php");
 } elseif (isset($_POST['point203'])) {
 
   $_SESSION["Question"] = $questionsCol3[1];
@@ -185,7 +186,8 @@ if (isset($_POST['point101'])) {
 </HEAD>
 
 <body>
-
+  <p style= "text-align:center" id = "logo"> <img src="static/jeopardy.png" alt="jeopardy logo" width = "25%" height = "30%"> </p>
+  
   <form method="post">
     <div id="container">
       <table id="board">
