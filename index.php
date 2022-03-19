@@ -186,7 +186,7 @@ if (isset($_POST['point101'])) {
 </HEAD>
 
 <body>
-  <p style= "text-align:center" id = "logo"> <img src="jeopardy.png" alt="jeopardy logo" width = "25%" height = "30%"> </p>
+  <p style= "text-align:center" id = "logo"> <img src="static/jeopardy.png" alt="jeopardy logo" width = "25%" height = "30%"> </p>
   
   <form method="post">
     <div id="container">
