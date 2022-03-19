@@ -63,25 +63,25 @@ if (isset($_POST['point101'])) {
   header("Location: questionPage.php");
 } elseif (isset($_POST['point202'])) {
 
-  $_SESSION["Question"] = $questionsCol2[0];
-  $_SESSION["Answer"] = $answersCol2[0];
+  $_SESSION["Question"] = $questionsCol2[1];
+  $_SESSION["Answer"] = $answersCol2[1];
   $_SESSION["Points"] = 200;
 } elseif (isset($_POST['point203'])) {
 
-  $_SESSION["Question"] = $questionsCol3[0];
-  $_SESSION["Answer"] = $answersCol3[0];
+  $_SESSION["Question"] = $questionsCol3[1];
+  $_SESSION["Answer"] = $answersCol3[1];
   $_SESSION["Points"] = 200;
   header("Location: questionPage.php");
 } elseif (isset($_POST['point204'])) {
 
-  $_SESSION["Question"] = $questionsCol4[0];
-  $_SESSION["Answer"] = $answersCol4[0];
+  $_SESSION["Question"] = $questionsCol4[1];
+  $_SESSION["Answer"] = $answersCol4[1];
   $_SESSION["Points"] = 200;
   header("Location: questionPage.php");
 } elseif (isset($_POST['point205'])) {
 
-  $_SESSION["Question"] = $questionsCol5[0];
-  $_SESSION["Answer"] = $answersCol5[0];
+  $_SESSION["Question"] = $questionsCol5[1];
+  $_SESSION["Answer"] = $answersCol5[1];
   $_SESSION["Points"] = 200;
   header("Location: questionPage.php");
 } elseif (isset($_POST['point301'])) {
@@ -92,26 +92,26 @@ if (isset($_POST['point101'])) {
   header("Location: questionPage.php");
 } elseif (isset($_POST['point302'])) {
 
-  $_SESSION["Question"] = $questionsCol2[0];
-  $_SESSION["Answer"] = $answersCol2[0];
+  $_SESSION["Question"] = $questionsCol2[2];
+  $_SESSION["Answer"] = $answersCol2[2];
   $_SESSION["Points"] = 300;
   header("Location: questionPage.php");
 } elseif (isset($_POST['point303'])) {
 
-  $_SESSION["Question"] = $questionsCol3[0];
-  $_SESSION["Answer"] = $answersCol3[0];
+  $_SESSION["Question"] = $questionsCol3[2];
+  $_SESSION["Answer"] = $answersCol3[2];
   $_SESSION["Points"] = 300;
   header("Location: questionPage.php");
 } elseif (isset($_POST['point304'])) {
 
-  $_SESSION["Question"] = $questionsCol4[0];
-  $_SESSION["Answer"] = $answersCol4[0];
+  $_SESSION["Question"] = $questionsCol4[2];
+  $_SESSION["Answer"] = $answersCol4[2];
   $_SESSION["Points"] = 300;
   header("Location: questionPage.php");
 } elseif (isset($_POST['point305'])) {
 
-  $_SESSION["Question"] = $questionsCol5[0];
-  $_SESSION["Answer"] = $answersCol5[0];
+  $_SESSION["Question"] = $questionsCol5[2];
+  $_SESSION["Answer"] = $answersCol5[2];
   $_SESSION["Points"] = 300;
   header("Location: questionPage.php");
 } elseif (isset($_POST['point401'])) {
@@ -122,26 +122,26 @@ if (isset($_POST['point101'])) {
   header("Location: questionPage.php");
 } elseif (isset($_POST['point402'])) {
 
-  $_SESSION["Question"] = $questionsCol2[0];
-  $_SESSION["Answer"] = $answersCol2[0];
+  $_SESSION["Question"] = $questionsCol2[3];
+  $_SESSION["Answer"] = $answersCol2[3];
   $_SESSION["Points"] = 400;
   header("Location: questionPage.php");
 } elseif (isset($_POST['point403'])) {
 
-  $_SESSION["Question"] = $questionsCol3[0];
-  $_SESSION["Answer"] = $answersCol3[0];
+  $_SESSION["Question"] = $questionsCol3[3];
+  $_SESSION["Answer"] = $answersCol3[3];
   $_SESSION["Points"] = 400;
   header("Location: questionPage.php");
 } elseif (isset($_POST['point404'])) {
 
-  $_SESSION["Question"] = $questionsCol4[0];
-  $_SESSION["Answer"] = $answersCol4[0];
+  $_SESSION["Question"] = $questionsCol4[3];
+  $_SESSION["Answer"] = $answersCol4[3];
   $_SESSION["Points"] = 400;
   header("Location: questionPage.php");
 } elseif (isset($_POST['point405'])) {
 
-  $_SESSION["Question"] = $questionsCol5[0];
-  $_SESSION["Answer"] = $answersCol5[0];
+  $_SESSION["Question"] = $questionsCol5[3];
+  $_SESSION["Answer"] = $answersCol5[3];
   $_SESSION["Points"] = 400;
   header("Location: questionPage.php");
 } elseif (isset($_POST['point501'])) {
@@ -152,26 +152,26 @@ if (isset($_POST['point101'])) {
   header("Location: questionPage.php");
 } elseif (isset($_POST['point502'])) {
 
-  $_SESSION["Question"] = $questionsCol2[0];
-  $_SESSION["Answer"] = $answersCol2[0];
+  $_SESSION["Question"] = $questionsCol2[4];
+  $_SESSION["Answer"] = $answersCol2[4];
   $_SESSION["Points"] = 500;
   header("Location: questionPage.php");
 } elseif (isset($_POST['point503'])) {
 
-  $_SESSION["Question"] = $questionsCol3[0];
-  $_SESSION["Answer"] = $answersCol3[0];
+  $_SESSION["Question"] = $questionsCol3[4];
+  $_SESSION["Answer"] = $answersCol3[4];
   $_SESSION["Points"] = 500;
   header("Location: questionPage.php");
 } elseif (isset($_POST['point504'])) {
 
-  $_SESSION["Question"] = $questionsCol4[0];
-  $_SESSION["Answer"] = $answersCol4[0];
+  $_SESSION["Question"] = $questionsCol4[4];
+  $_SESSION["Answer"] = $answersCol4[4];
   $_SESSION["Points"] = 500;
   header("Location: questionPage.php");
 } elseif (isset($_POST['point505'])) {
 
-  $_SESSION["Question"] = $questionsCol5[0];
-  $_SESSION["Answer"] = $answersCol5[0];
+  $_SESSION["Question"] = $questionsCol5[4];
+  $_SESSION["Answer"] = $answersCol5[4];
   $_SESSION["Points"] = 500;
   header("Location: questionPage.php");
 } elseif (isset($_POST['reset'])) {
